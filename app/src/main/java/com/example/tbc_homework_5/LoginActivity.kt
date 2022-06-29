@@ -29,8 +29,9 @@ class LoginActivity : AppCompatActivity(){
 
         //button click handling
         val  logInButton: Button = findViewById(R.id.loginButton)
-        validateData()
-
+        logInButton.setOnClickListener {
+            validateData()
+        }
 
     }
 
@@ -42,12 +43,12 @@ class LoginActivity : AppCompatActivity(){
         //validate data
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
             //invalid email format
-            (findViewById(R.id.emailError) as TextView).error = "Invalid email format"
+            (findViewById(R.id.emailError) as TextView).text = "Invalid email format"
 
         }
         else if (password.isEmpty()){
             //no password was entered
-            (findViewById(R.id.passwordError) as TextView).error = "Please enter password"
+            (findViewById(R.id.passwordError) as TextView).text = "Please enter password"
         }
         else {
             //data is validated, we begin login
