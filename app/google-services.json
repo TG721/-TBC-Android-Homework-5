@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "88514654171",
+    "project_id": "fir-login-singup-e543f",
+    "storage_bucket": "fir-login-singup-e543f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88514654171:android:1f36f2ed9ed57434b101fe",
+        "android_client_info": {
+          "package_name": "com.example.tbc_homework_5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88514654171-hd2oiqoag0secmj03cu7tgnj5e7dqjm2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tbc_homework_5",
+            "certificate_hash": "14f11b26303d967855d74820c0d550c945dd693f"
+          }
+        },
+        {
+          "client_id": "88514654171-levp5sqk71lmu7ri1lq03asf88mt1cp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiCegLBhkqCGKeiz0Nbb_Q-LhCI8oXFsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88514654171-levp5sqk71lmu7ri1lq03asf88mt1cp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
