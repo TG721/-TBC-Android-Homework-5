@@ -32,8 +32,10 @@
         android:layout_marginTop="10dp"
         android:text="TextView"
         android:textColor="@android:color/holo_red_light"
-        app:layout_constraintTop_toBottomOf="@+id/loginLable"
-        tools:layout_editor_absoluteX="168dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginLable" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/log_out"
@@ -43,6 +45,8 @@
         android:background="@color/black"
         android:text="SIGN OUT"
         android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@+id/loginInfo"
-        tools:layout_editor_absoluteX="161dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginInfo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
