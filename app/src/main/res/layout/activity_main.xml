@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="162dp"
         android:fontFamily="@font/comfortaa"
-        android:text="photo"
+        android:text="@string/photo"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -25,9 +25,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="49dp"
+        android:width="150dp"
         android:background="@drawable/white_button"
         android:text="@string/log_in"
-        android:width="150dp"
         app:layout_constraintEnd_toStartOf="@+id/fromMainRegisterButton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,4 +65,17 @@
         android:text="\@tengiz_gache"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tengiz" />
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="11sp"
+        android:text="@string/warning"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fromMainLoginButton"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

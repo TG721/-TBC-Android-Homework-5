@@ -14,7 +14,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="80dp"
         android:fontFamily="@font/comfortaa"
-        android:text="Register"
+        android:text="@string/register"
         android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,7 +26,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/input"
         android:ems="10"
-        android:hint="Enter email"
+        android:hint="@string/enter_username"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:paddingStart="10dp"
@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:background="@drawable/black_button"
-        android:text="SIGN UP"
+        android:text="@string/sign_up"
 
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/registerUserName" />
@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="By signing up, you agree to Photo's Terms of Service and Privacy Policy"
+        android:text="@string/by_signing_up_you_agree_to_photo_s_terms_of_service_and_privacy_policy"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

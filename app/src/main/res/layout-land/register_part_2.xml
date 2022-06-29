@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="By signing up, you agree to Photo's Terms of Service and Privacy Policy"
+        android:text="@string/by_signing_up_you_agree_to_photo_s_terms_of_service_and_privacy_policy"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

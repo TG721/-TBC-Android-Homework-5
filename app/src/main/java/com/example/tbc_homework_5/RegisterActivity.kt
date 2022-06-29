@@ -71,7 +71,6 @@ class RegisterActivity : AppCompatActivity() {
                 val firebaseUser = firebaseAuth.currentUser
                 val email = firebaseUser!!.email
                 Toast.makeText(this, "Almost done", Toast.LENGTH_SHORT ).show()
-
                 val intent = Intent(this, RegisterPart2Activity::class.java)
                 startActivity(intent)
                 finish()
