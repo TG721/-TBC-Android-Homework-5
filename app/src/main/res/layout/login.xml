@@ -58,4 +58,25 @@
         android:textColor="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
 
+    <TextView
+        android:id="@+id/emailError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="46dp"
+        android:text=""
+        android:textColor="@android:color/holo_red_light"
+        app:layout_constraintBottom_toBottomOf="@+id/loginPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginEmail" />
+
+    <TextView
+        android:id="@+id/passwordError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textColor="@android:color/holo_red_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginPassword" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
